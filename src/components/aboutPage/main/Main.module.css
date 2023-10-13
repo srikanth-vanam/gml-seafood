@@ -1,0 +1,128 @@
+.outer {
+  height: 140vh;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.content {
+  height: 95%;
+  width: 60%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top,
+.bottom {
+  width: 70%;
+}
+.top h4,
+.bottom h4 {
+  color: grey;
+  margin-bottom: 0;
+}
+.hLine {
+  height: 2px;
+  width: 3rem;
+  background-color: #5aa7c9;
+}
+.dishes {
+  height: 100%;
+  width: 40%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+.dishes_images {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0f0f13;
+}
+.imgs {
+  height: 250px;
+  width: 250px;
+  background-image: url(./gmlseafood-img18.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 1rem;
+}
+.imgs1 {
+  height: 250px;
+  width: 250px;
+  background-image: url(./gmlseafood-img19.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 1rem;
+}
+.imgs2 {
+  height: 250px;
+  width: 250px;
+  background-image: url(./gmlseafood-img20.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .dishes {
+    display: none;
+  }
+  .outer{
+    height: 140vh;
+  }
+  .content {
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .top,
+  .bottom {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 484px) and (max-width: 767px) {
+  .dishes {
+    display: none;
+  }
+  .outer {
+    height: 110vh;
+  }
+  .content {
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    padding: 2rem;
+  }
+  .top,
+  .bottom {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 483px) {
+  .dishes {
+    display: none;
+  }
+  .outer {
+    height: 100vh;
+  }
+  .content {
+    height: 100%;
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .top,
+  .bottom {
+    width: 90%;
+  }
+}

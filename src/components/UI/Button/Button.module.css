@@ -1,0 +1,28 @@
+.button {
+  font: inherit;
+  border: 1px solid #ffffff00;
+  background: #5aa8c9c2;
+  color: white;
+  padding:  8px 30px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Kaisei HarunoUmi', sans-serif;
+  font-weight: 100;
+  width: 13rem;
+}
+.button:hover{
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+/* {
+  background-color: #5aa8c9c2;
+  color: #fff;
+  padding: 8px 30px;
+  transition: 0.3s;
+  border: 1px solid #ffffff00;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: 'Kaisei HarunoUmi', sans-serif;
+  width: 13rem;
+} */

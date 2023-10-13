@@ -1,0 +1,81 @@
+.about {
+  height: 90vh;
+  background-color: #fff;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+}
+.about_content {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin-bottom: 1rem; */
+}
+.about_content h4 {
+  margin-bottom: 0;
+}
+.about_content button {
+  margin-top: 1rem;
+}
+.about_content p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.hLine {
+  margin-top: 0;
+  height: 2px;
+  width: 3rem;
+  background-color: #5aa7c9;
+}
+.h1 {
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 771px) {
+  .about {
+    padding: 1.5rem;
+  }
+  .h1 {
+    font-size: 2rem;
+  }
+  .about_content {
+    width: 80%;
+    height: 100%;
+    /* height: fit-content; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-bottom: 1rem; */
+  }
+}
+@media screen and (max-width: 480px) {
+  .about {
+    padding: 1rem;
+  }
+  .h1 {
+    font-size: 1.2rem;
+  }
+  .about_content {
+    width: 90%;
+    height: 100%;
+    /* height: fit-content; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-bottom: 1rem; */
+  }
+}

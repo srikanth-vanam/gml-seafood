@@ -1,0 +1,87 @@
+.outer {
+  /* height: 140vh; */
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+.left {
+  width: 70%;
+  /* height: 120vh; */
+}
+.h1{
+    font-size: 3rem;
+}
+.left h4 {
+  color: grey;
+  margin-bottom: 0;
+}
+.hLine {
+  height: 2px;
+  width: 3rem;
+  background-color: #5aa7c9;
+}
+.left input{
+    color: black;
+    height: 40px;
+    padding-left: 1rem;
+  background-color: rgba(240, 240, 240,0.4);
+  outline: none;
+  border: none;
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+.left input:focus{
+    border:2px solid black;
+}
+.input{
+    color: black;
+    /* height: 40px; */
+    padding: 1rem;
+  background-color: rgba(240, 240, 240,0.4);
+  outline: none;
+  border: none;
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+.input:focus{
+    border:2px solid black;
+}
+.left button:hover{
+    color: blue;
+    border: 1px solid blue;
+}
+.right {
+  width: 35%;
+  /* height: 120vh; */
+  background-image: url(./gmlseafood-img1.jpeg);
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width:1024px) {
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+}
+@media screen and (max-width:440px) {
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+    .h1{
+        font-size: 2rem;
+    }
+    .outer{
+        padding: 2rem;
+    }
+}

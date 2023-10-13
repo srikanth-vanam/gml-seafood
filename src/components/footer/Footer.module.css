@@ -1,0 +1,94 @@
+.outer {
+  height: 160vh;
+  width: 100%;
+}
+.img {
+  position: absolute;
+  height: 160vh;
+  width: 100%;
+  background-image: url(./gmlseafood-img7.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.content_top {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  height: 90%;
+  color: #fff;
+}
+.left,
+.right {
+  background-color: #1b1b1bc7;
+  height: 120vh;
+  width: 45%;
+  padding: 6rem 3rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+.left h1 {
+  margin-bottom: 3rem;
+}
+.left h4 {
+  margin-bottom: 0;
+}
+
+.left a button {
+  margin-top: 4rem;
+}
+.left h1 {
+  font-weight: 300px;
+  font-size: 40px;
+}
+.top button {
+  margin: 2rem;
+}
+.bottom p {
+  text-align: center;
+}
+.bottom input {
+  color: white;
+  height: 50px;
+  width: 90%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.bottom input:focus {
+  /* border: 0px; */
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+.bottom button {
+  margin-top: 2rem;
+}
+.copyright {
+  color: white;
+  text-align: center;
+}
+.copyright button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 30px;
+}
+.copyright button:hover{
+    cursor: pointer;
+    background-color: #5aa8c9c2;
+    color: white;
+}
+@media screen and (max-width:1024px){
+  .outer{
+    display: none;
+  }
+}

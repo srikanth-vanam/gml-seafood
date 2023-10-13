@@ -1,0 +1,81 @@
+.contact {
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
+.overlay_img {
+  height: 100%;
+  position: absolute;
+  background-image: url(gmlseafood-img12.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* right: 0;
+  bottom: 0; */
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.overlay_text {
+  position: relative;
+  top: 15vh;
+  margin: auto;
+  overflow: hidden;
+  color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.overlay_text h4 {
+  margin-bottom: 0;
+}
+.button {
+  margin-top: 1rem;
+}
+.hLine {
+  margin-top: 0;
+  height: 2px;
+  width: 3rem;
+  background-color: #5aa7c9;
+}
+.h1 {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+   
+  /*.overlay {
+    height: 100%;
+  } */
+  .contact{
+    display: block;
+  }
+  .overlay_text {
+    top: 10vh;
+  }
+  .h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* .contact {
+    height: 80%;
+  }
+  .overlay_img {
+    height: 80%;
+  } */
+  .overlay_text {
+    top: 5vh;
+    width: 75%;
+  }
+  .h1 {
+    font-size: 1.5rem;
+  }
+}

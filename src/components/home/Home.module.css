@@ -1,0 +1,30 @@
+.icon_div {
+  height: 50vh;
+  padding: 3rem;
+}
+.content {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon img {
+  height: 170px;
+}
+
+.containerr{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1024px) {
+  .icon_div {
+    display: none;
+  }
+}

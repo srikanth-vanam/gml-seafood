@@ -1,0 +1,71 @@
+.outer {
+  margin-top: 0;
+  height: 100vh;
+  display: block;
+  width: 100%;
+  /* font-family: "Playfair Display"; */
+}
+.img {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-image: url(gmlseafood-img8.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.hero_text {
+  position: relative;
+  top: 15vh;
+  margin: auto;
+  overflow: hidden;
+  color: white;
+  width: 80%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.buttons {
+  margin: auto;
+}
+.buttons .view_btn {
+  border: 1px solid #fff;
+  background: transparent;
+  color: white;
+  margin-right: 0.5rem;
+}
+@media screen and(min-width:767px) and (max-width:1024px) {
+  .hero_text{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about_btn {
+    display: none;
+  }
+  .buttons .view_btn{
+    margin-right: 0;
+  }
+  .hero_text{
+    width: 65%;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero_text {
+    width: 51%;
+    top: 12vh;
+    font-size: 1rem;
+  }
+  .buttons .view_btn{
+    margin-right: 0;
+  }
+}
