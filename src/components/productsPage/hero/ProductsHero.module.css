@@ -41,7 +41,7 @@
   color: white;
   margin-right: 0.5rem;
 }
-.buttons .view_btn:hover{
+.buttons .view_btn:hover {
   background: white;
   color: black;
 }
@@ -79,5 +79,8 @@
   }
   .buttons .view_btn {
     margin-right: 0;
+    font-size: 1rem;
+    width: 10rem;
+    padding: 5px 20px;
   }
 }

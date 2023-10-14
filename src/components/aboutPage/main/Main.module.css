@@ -1,11 +1,11 @@
 .outer {
-  height: 140vh;
+  height: auto;
   width: 100%;
   display: flex;
   /* justify-content: space-between; */
 }
 .content {
-  height: 95%;
+  height: auto;
   width: 60%;
   padding: 5rem;
   display: flex;
@@ -27,14 +27,15 @@
   background-color: #5aa7c9;
 }
 .dishes {
-  height: 100%;
+  height: auto;
+  margin: auto;
   width: 40%;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-right: 1rem;
 }
 .dishes_images {
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,10 +74,10 @@
     display: none;
   }
   .outer{
-    height: 140vh;
+    height: auto;
   }
   .content {
-    height: 100%;
+    height: auto;
     width: 100%;
     font-size: 1.2rem;
   }
@@ -91,10 +92,10 @@
     display: none;
   }
   .outer {
-    height: 110vh;
+    height: auto;
   }
   .content {
-    height: 100%;
+    height: auto;
     width: 100%;
     font-size: 1rem;
     padding: 2rem;
@@ -109,10 +110,10 @@
     display: none;
   }
   .outer {
-    height: 100vh;
+    height: auto;
   }
   .content {
-    height: 100%;
+    height: auto;
     width: 100%;
     font-size: 0.8rem;
     padding: 2rem;

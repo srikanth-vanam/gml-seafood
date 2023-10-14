@@ -3,17 +3,24 @@
   border: 1px solid #ffffff00;
   background: #5aa8c9c2;
   color: white;
-  padding:  8px 30px;
+  padding: 8px 30px;
   cursor: pointer;
   font-size: 18px;
-  font-family: 'Kaisei HarunoUmi', sans-serif;
+  font-family: "Kaisei HarunoUmi", sans-serif;
   font-weight: 100;
   width: 13rem;
 }
-.button:hover{
+.button:hover {
   background: white;
   color: black;
   transition: 0.3s;
+}
+@media screen and (max-width: 480px) {
+  .button {
+    font-size: 1rem;
+    width: 10rem;
+    padding: 5px 20px;
+  }
 }
 /* {
   background-color: #5aa8c9c2;

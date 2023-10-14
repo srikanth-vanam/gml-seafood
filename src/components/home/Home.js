@@ -5,9 +5,11 @@ import Philosophy from "./home-contact/Philosophy";
 import Footer from "../footer/Footer";
 import MoblileFooter from "../mobilefooter/MobileFooter";
 import HomeProducts from "../products/homePageProduct/HomeProduct";
+import Header from "../header/Header";
 const Home = () => {
   return (
     <div className={classes.containerr}>
+      <Header />
       <Hero />
       <HomeAbout />
       <HomeProducts />

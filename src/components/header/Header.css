@@ -1,0 +1,116 @@
+.outer {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inner {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo img {
+  height: 80px;
+}
+.displayHome{
+  visibility: hidden;
+  /* display: none; */
+}
+.menu_icon {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.menu_icon .bar {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.nav_items {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ul {
+  list-style-type: none;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ul li {
+  margin-right: 1rem;
+}
+
+.navlink {
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 786px) {
+  .menu_icon {
+    display: block;
+    position: absolute;
+    top: 30px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    z-index: 2; /* Display the menu icon on top of the panel */
+  }
+  .position_fixed {
+    position: fixed;
+  }
+  .displayHome{
+    visibility: visible;
+  }
+  .nav_items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background: white;
+    top: 100px;
+    right: 0;
+    width: 100%;
+  }
+
+  .nav_items.open {
+    display: flex;
+  }
+  .ul {
+    list-style-type: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    z-index: 1;
+  }
+
+  .ul li {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo img {
+    height: 40px;
+  }
+  .outer {
+    height: 60px;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
