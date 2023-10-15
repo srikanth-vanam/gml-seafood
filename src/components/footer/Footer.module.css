@@ -11,11 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* .content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 .content_top {
   display: flex;
   flex-direction: row;
@@ -65,7 +61,6 @@
   border-bottom: 1px solid white;
 }
 .bottom input:focus {
-  /* border: 0px; */
   border: 1px solid whitesmoke;
   border-radius: 5px;
 }
@@ -79,6 +74,8 @@
 .copyright button {
   background-color: black;
   color: white;
+  font-family: 'Kaisei HarunoUmi', sans-serif;
+  font-size: 14px;
   border: none;
   height: 30px;
 }

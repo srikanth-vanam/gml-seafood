@@ -1,7 +1,7 @@
 .about {
   height: auto;
   background-color: #fff;
-  padding:5rem;
+  padding: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,10 +20,11 @@
   text-align: center;
   /* margin-bottom: 1rem; */
 }
-.about_content h4{
-    margin-bottom: 0;
+.about_content h4 {
+  margin-bottom: 0;
+  color: #acacac;
 }
-.about_content button{
+.about_content button {
   margin-top: 1rem;
 }
 .hLine {
@@ -56,23 +57,23 @@
     /* margin-bottom: 1rem; */
   }
 }
-@media screen and (max-width:480px) {
-    .about{
-        padding: 2rem;
-    }
-    .h1{
-        font-size: 1.2rem;
-    }
-    .about_content {
-      width: 90%;
-      height: 100%;
-      /* height: fit-content; */
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      /* margin-bottom: 1rem; */
-    }
+@media screen and (max-width: 480px) {
+  .about {
+    padding: 2rem;
+  }
+  .h1 {
+    font-size: 1.2rem;
+  }
+  .about_content {
+    width: 90%;
+    height: 100%;
+    /* height: fit-content; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-bottom: 1rem; */
+  }
 }

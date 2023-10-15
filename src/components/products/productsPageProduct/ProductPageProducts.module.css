@@ -29,7 +29,7 @@
   background-image: url(../gmlseafood-img30.jpeg);
 }
 .three {
-  background-image: url(../gmlseafood-img9.jpg);
+  background-image: url(../gmlseafood-img8-1.jpg);
 }
 .four {
   background-image: url(../gmlseafood-img32.jpeg);
@@ -63,7 +63,7 @@
 }
 @media screen and (max-width: 1024px) {
   .one {
-    background-image: url(../gmlseafood-img9.jpg);
+    background-image: url(../gmlseafood-img8-1.jpg);
   }
   .two {
     background-image: url(../gmlseafood-img14.jpg);
@@ -149,7 +149,7 @@
     background-image: url(../gmlseafood-img30.jpeg);
   }
   .one {
-    background-image: url(../gmlseafood-img9.jpg);
+    background-image: url(../gmlseafood-img8-1.jpg);
   }
   .five {
     background-image: url(../gmlseafood-img32.jpeg);
@@ -170,7 +170,7 @@
     background-image: url(../gmlseafood-img30.jpeg);
   }
   .one {
-    background-image: url(../gmlseafood-img9.jpg);
+    background-image: url(../gmlseafood-img8-1.jpg);
   }
   .five {
     background-image: url(../gmlseafood-img32.jpeg);

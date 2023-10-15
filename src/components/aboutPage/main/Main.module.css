@@ -18,7 +18,7 @@
 }
 .top h4,
 .bottom h4 {
-  color: grey;
+  color: #acacac;
   margin-bottom: 0;
 }
 .hLine {
@@ -73,7 +73,7 @@
   .dishes {
     display: none;
   }
-  .outer{
+  .outer {
     height: auto;
   }
   .content {
