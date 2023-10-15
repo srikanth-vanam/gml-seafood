@@ -41,6 +41,10 @@
   color: white;
   margin-right: 0.5rem;
 }
+.buttons .view_btn:hover {
+  background: white;
+  color: black;
+}
 @media screen and(min-width:767px) and (max-width: 1024px) {
   .hero_text {
     font-size: 1.2rem;
