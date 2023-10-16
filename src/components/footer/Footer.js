@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
           <div className={classes.copyright}>
             GML Seafood 2023 -- Built With Passion by{" "}
-            <a href="https://themerakistudio.co" target="_blank" rel="noreferrer">
+            <a href="https://themerakistudio.co" target="_blank" rel="noopener noreferrer">
               <button>The Meraki Studio</button>
             </a>
           </div>
