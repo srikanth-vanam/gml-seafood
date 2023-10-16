@@ -1,5 +1,6 @@
 import classes from "./Hero.module.css";
 import Button from "../../UI/Button/Button";
+import { NavLink } from "react-router-dom/cjs/react-router-dom";
 
 const Hero = () => {
   return (
@@ -15,8 +16,12 @@ const Hero = () => {
               harvesters and your plate, ensuring quality over quantity, always.
             </p>
             <div className={classes.buttons}>
-              <Button className={classes.view_btn}>View Selection</Button>
-              <Button className={classes.about_btn}>About Us</Button>
+              <NavLink to="/products">
+                <Button className={classes.view_btn}>View Selection</Button>
+              </NavLink>
+              <NavLink to="/about">
+                <Button className={classes.about_btn}>About Us</Button>
+              </NavLink>
             </div>
           </div>
         </div>
