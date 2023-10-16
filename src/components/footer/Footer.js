@@ -16,7 +16,7 @@ const Footer = () => {
                 <p>09:00 AM- 03:00 PM</p>
                 <h4>SUN</h4>
                 <p>We are Closed!</p>
-                <a href="https://wa.link/y97ixg" target="_blank">
+                <a href="https://wa.link/y97ixg" target="_blank" rel="noreferrer">
                   <Button>WhatsApp Us</Button>
                 </a>
               </div>
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
           <div className={classes.copyright}>
             GML Seafood 2023 -- Built With Passion by{" "}
-            <a href="https://themerakistudio.co" target="_blank" rel="noopener noreferrer">
+            <a href="https://themerakistudio.co" target="_blank" rel="noreferrer">
               <button>The Meraki Studio</button>
             </a>
           </div>
